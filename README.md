@@ -1,5 +1,5 @@
-# Executive-and-Organisational-Commitments-RAG
-A RAG designed to help senior leaders and business consultants explore the efficacy of organisational commitments
+# Executive-and-Organisational-Commitments
+An AI training document designed to help senior leaders and business consultants explore the efficacy of organisational commitments
 
 ## Resource Overview
 
