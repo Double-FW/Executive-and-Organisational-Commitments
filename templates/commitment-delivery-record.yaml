@@ -1,0 +1,79 @@
+# One record per proposed or approved commitment.
+# Empty values mean not supplied; do not invent targets, owners, or dates.
+schema_version: "1.0.0"
+commitment_id: ""
+status: candidate_not_approved
+organisation:
+  name: ""
+  scope: ""
+  audience: ""
+approval:
+  decision_owner_role: ""
+  approval_route: ""
+  approval_status: decision_required
+  approved_date: null
+commitment:
+  statement: ""
+  priority_id: ""
+  claim_ids: []
+  source_record_ids: []
+  intended_outcome: ""
+  commitment_class: action
+delivery:
+  accountable_role: ""
+  delivery_owner_role: ""
+  actions: []
+  milestones: []
+  dependencies: []
+  resources_or_budget: decision_required
+measurement:
+  baseline:
+    value: null
+    status: not_provided
+    evidence_refs: []
+    date: null
+  measure:
+    name: ""
+    type: decision_required
+    definition: ""
+    data_source: ""
+    collection_frequency: ""
+    disaggregation_and_privacy_controls: ""
+  target:
+    value: null
+    status: not_provided
+    rationale: ""
+    target_date: null
+  reporting_route: ""
+  review_date: null
+employment_opportunity:
+  relevance: decision_required
+  stages_addressed: []
+  evidence_refs: []
+disabled_people_participation:
+  involved: decision_required
+  group_or_channel: ""
+  accessible_participation_method: ""
+  how_input_changed_decision: ""
+  unresolved_feedback: ""
+assurance:
+  accessibility_review: pending
+  privacy_review: pending
+  legal_or_regulatory_review: not_assessed
+  risks_and_mitigations: []
+  status: not_reviewed
+reporting:
+  last_reported_date: null
+  progress_status: not_reported
+  evidence_refs: []
+  narrative: ""
+  lessons_and_changes: ""
+audit:
+  record_id: ""
+  created_at_utc: ""
+  created_by_role: ""
+  prompt_version: ""
+  policy_version: "0.1.0"
+  escalation_refs: []
+  retention_schedule_ref: ""
+  redaction_notes: ""

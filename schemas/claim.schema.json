@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Double-FW/Executive-and-Organisational-Commitments/blob/main/schemas/claim.schema.json",
+  "title": "Evidence Claim",
+  "description": "A claim with evidence class, traceable references, uncertainty, and review state.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "claim_id", "claim_text", "claim_type", "evidence_refs", "confidence", "limitations", "review_status"],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "claim_id": { "type": "string", "minLength": 1 },
+    "claim_text": { "type": "string", "minLength": 1 },
+    "claim_type": { "enum": ["corpus_finding", "organisation_fact", "framework_requirement", "recommendation", "inference", "unknown"] },
+    "evidence_refs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["ref_type", "ref_id", "locator", "supports"],
+        "properties": {
+          "ref_type": { "enum": ["source_record", "organisation_document", "framework_source", "delivery_record", "other"] },
+          "ref_id": { "type": ["string", "null"] },
+          "locator": { "type": ["string", "null"] },
+          "supports": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "confidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["level", "rationale"],
+      "properties": {
+        "level": { "enum": ["high", "moderate", "low", "not_assessed"] },
+        "rationale": { "type": "string" }
+      }
+    },
+    "limitations": { "type": "array", "items": { "type": "string" } },
+    "review_status": { "enum": ["draft", "needs_evidence", "human_review", "approved", "rejected"] },
+    "reviewer_role": { "type": ["string", "null"] },
+    "reviewed_date": { "type": ["string", "null"], "format": "date" }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "claim_type": { "enum": ["corpus_finding", "organisation_fact", "framework_requirement"] } }, "required": ["claim_type"] },
+      "then": { "properties": { "evidence_refs": { "minItems": 1 } } }
+    }
+  ]
+}

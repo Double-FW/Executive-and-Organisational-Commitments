@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Double-FW/Executive-and-Organisational-Commitments/blob/main/schemas/source-record.schema.json",
+  "title": "Executive Commitment Source Record",
+  "description": "One provenance-preserving source extract. Keep original wording separate from paraphrase, translation, and coding.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "record_id", "source_text_verbatim", "source", "coding"],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "record_id": { "type": "string", "minLength": 1 },
+    "source_text_verbatim": { "type": "string", "minLength": 1, "description": "Exact original source wording. Do not normalize this field." },
+    "researcher_paraphrase": { "type": ["string", "null"] },
+    "translation": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": ["text", "language", "method"],
+      "properties": {
+        "text": { "type": "string" },
+        "language": { "type": "string" },
+        "method": { "enum": ["human", "machine", "mixed", "unknown"] }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_file", "source_title", "source_url", "publication_date", "accessed_date", "locator", "organization_ref", "reuse_status"],
+      "properties": {
+        "source_file": { "type": ["string", "null"] },
+        "source_title": { "type": ["string", "null"] },
+        "source_url": { "type": ["string", "null"], "format": "uri" },
+        "publication_date": { "type": ["string", "null"], "format": "date" },
+        "accessed_date": { "type": ["string", "null"], "format": "date" },
+        "locator": {
+          "type": ["object", "null"],
+          "additionalProperties": false,
+          "properties": {
+            "page": { "type": ["integer", "null"], "minimum": 1 },
+            "section": { "type": ["string", "null"] },
+            "line_start": { "type": ["integer", "null"], "minimum": 1 },
+            "line_end": { "type": ["integer", "null"], "minimum": 1 },
+            "anchor": { "type": ["string", "null"] }
+          }
+        },
+        "organization_ref": {
+          "type": ["object", "null"],
+          "additionalProperties": false,
+          "required": ["status", "value"],
+          "properties": {
+            "status": { "enum": ["known", "anonymised", "not_recorded", "not_applicable"] },
+            "value": { "type": ["string", "null"] }
+          }
+        },
+        "reuse_status": {
+          "enum": ["not_assessed", "permitted", "restricted", "permission_required", "public_link_only", "not_for_redistribution"]
+        }
+      }
+    },
+    "coding": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "theme_ids", "commitment_class", "employment_relevance", "notes", "coder", "coded_date", "confidence"],
+      "properties": {
+        "status": { "enum": ["uncoded", "in_progress", "reviewed", "adjudicated"] },
+        "theme_ids": { "type": "array", "uniqueItems": true, "items": { "type": "string" } },
+        "commitment_class": { "enum": ["aspiration", "action", "output", "outcome", "governance", "mixed", "unclear", "not_assessed"] },
+        "employment_relevance": { "enum": ["direct", "indirect", "none_identified", "unclear", "not_assessed"] },
+        "notes": { "type": ["string", "null"] },
+        "coder": { "type": ["string", "null"] },
+        "coded_date": { "type": ["string", "null"], "format": "date" },
+        "confidence": { "enum": ["high", "moderate", "low", "not_assessed"] }
+      }
+    }
+  }
+}

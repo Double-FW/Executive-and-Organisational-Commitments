@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Double-FW/Executive-and-Organisational-Commitments/blob/main/schemas/escalation.schema.json",
+  "title": "Workflow Escalation Record",
+  "description": "Minimal, privacy-conscious audit record for every workflow escalation.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "event_id", "timestamp_utc", "stage", "prompt_version", "policy_version", "category", "source_refs", "decision_owner_role", "disposition", "rationale", "follow_up", "redacted_detail_ref", "retention_schedule_ref", "personal_data_check"],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "event_id": { "type": "string", "minLength": 1 },
+    "timestamp_utc": { "type": "string", "format": "date-time" },
+    "stage": { "enum": ["scope_and_intake", "evidence_map", "gap_analysis", "drafting", "delivery_and_measurement", "assurance", "review_and_renewal"] },
+    "prompt_version": { "type": "string" },
+    "policy_version": { "type": "string" },
+    "category": { "enum": ["unsupported_claim", "source_conflict", "legal_or_regulatory", "sensitive_workforce_data", "authority_or_resource_missing", "disabled_people_participation", "privacy_or_security", "other"] },
+    "source_refs": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "decision_owner_role": { "type": ["string", "null"] },
+    "disposition": { "enum": ["pending", "resolved", "accepted_with_controls", "rejected", "deferred"] },
+    "rationale": { "type": "string", "minLength": 1 },
+    "follow_up": { "type": ["string", "null"] },
+    "redacted_detail_ref": { "type": ["string", "null"], "description": "Reference to restricted detail held outside general-purpose logs; never place sensitive detail here." },
+    "retention_schedule_ref": { "type": ["string", "null"], "description": "Identifier for the organisation-approved retention schedule. Null requires governance direction before logging restricted details." },
+    "personal_data_check": { "enum": ["none_recorded", "minimised_and_authorised", "blocked_pending_review"] }
+  }
+}
