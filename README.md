@@ -1,294 +1,48 @@
-# Executive-and-Organisational-Commitments
-An AI training document designed to help senior leaders and business consultants explore the efficacy of organisational commitments
+# Executive and organisational commitments
 
+**Double FW Ltd · Version 1.0 · 19 November 2026 · MIT for original Double FW material**
 
-## Evidence-Led Drafting Toolkit
+Turn disability-inclusion ambitions into credible, reviewable commitments: connect an actual organisational priority with human accountability, feasible delivery, meaningful participation and evidence of outcomes. A public promise proves stated intent; it does not prove delivery.
 
-The repository supports a staged process for turning evidence into organisational commitments. The source compilation remains in [Executive Commitments - RAW Data.txt](Executive%20Commitments%20-%20RAW%20Data.txt); the thematic guide is [Commitments on Disability Inclusion.md](Commitments%20on%20Disability%20Inclusion.md).
+## Start with your task
 
-Use the toolkit in this order:
+| Task | Read |
+| --- | --- |
+| Use the toolkit without technical knowledge | [Start here](START_HERE.md) |
+| Understand themes and draft appropriate wording | [Thematic guide](Commitments%20on%20Disability%20Inclusion.md) |
+| Work through one stage at a time | [Seven-stage prompt library](prompts/README.md) |
+| See a completed fictional draft | [Worked example](examples/WORKED-EXAMPLE.md) |
+| Connect promises with policy, programmes and research | [Public Double-FW source map](PUBLIC_SOURCE_MAP.md) |
+| Understand the evidence and its limits | [Research method](evidence/RESEARCH-METHOD-AND-LIMITATIONS.md) and [source register](evidence/SOURCE_REGISTER.md) |
+| Integrate structured records | [Schema guide](schemas/README.md) and [delivery template](templates/commitment-delivery-record.yaml) |
+| Use an AI assistant | [AGENTS.md](AGENTS.md) |
 
-1. [Research method and limitations](evidence/RESEARCH-METHOD-AND-LIMITATIONS.md).
-2. [Source record schema](schemas/source-record.schema.json), [claim schema](schemas/claim.schema.json), and [escalation record schema](schemas/escalation.schema.json).
-3. [Prompt library](prompts/README.md): intake, evidence mapping, gap analysis, drafting, delivery planning, assurance, and renewal.
-4. [Commitment delivery record](templates/commitment-delivery-record.yaml).
-5. [Agent guidance](AGENTS.md): evidence, privacy, escalation, and human-review rules.
+## What this collection can support
 
-Missing evidence, owners, baselines, authority, resources, or dates must be recorded as open decisions. Agents must not invent them. The repository's existing licence does not by itself establish reuse permission for third-party source statements; check source-level reuse status before reproducing extracts.
+Executive communications, policy preparation, workforce and customer programmes, procurement, brand research and reporting. Use evidence across employment stages and service journeys. Connect functional access with dignity, choice, effort and satisfaction; do not claim that a technical test proves trust or belonging.
 
-## Resource Overview
+This is a drafting and governance method, not an adopted organisational policy, certified assessment, deployed agent, legal determination or measured study of commitment effectiveness. Suggested approaches must be checked against actual authority, scope, capacity and the people affected.
 
-This document defines a governance-oriented framework for executive disability inclusion commitments, accessibility communications, organisational accountability, and inclusive leadership positioning.
+## Authority and approval
 
-The framework is designed as a strategic operational knowledge resource suitable for Retrieval-Augmented Generation (RAG), AI governance systems, executive communications workflows, ESG and DEI reporting systems, policy development environments, organisational transformation initiatives, and Responsible AI governance programmes.
+Keep applicable legal/contractual duties, approved voluntary commitments, verified practice, approved future activity and proposals distinct. An executive pledge cannot waive an applicable duty. Double-FW resources supply secondary guidance; use current primary authorities and competent human review for legal conclusions.
 
-Unlike conventional accessibility policy guidance focused primarily on compliance statements, this framework positions disability inclusion commitments as:
+**An authorised human must approve the exact wording, scope, version and destination before an organisational commitment is published.** Drafting or passing an automated check is not approval. Missing essential evidence blocks the affected claim or action; useful preparatory work can continue with visible questions and placeholders. Do not require every optional document to be present before helping.
 
-- cultural governance mechanisms
-- leadership accountability systems
-- operational inclusion signals
-- ethical positioning frameworks
-- organisational trust indicators
-- customer and workforce participation commitments
-- measurable inclusion governance structures
+## Evidence and original material
 
-The document is intended to support both human governance teams and AI-assisted systems responsible for executive messaging, organisational strategy, accessibility governance, inclusion policy development, customer trust, workforce participation, and ethical communications.
+[The original raw compilation](Executive%20Commitments%20-%20RAW%20Data.txt) is preserved unchanged for traceability. It contains introductory guidance, unsegmented extracts, duplicates, retained brand references and unknown source-level rights. It is not reliably anonymised or a verified current statement database. Read the [source register](evidence/SOURCE_REGISTER.md) before using it. The physical-segment inventory is a navigation aid, not a count of organisations or commitments.
 
----
+The revised thematic guide is Double-FW methodological guidance with newly written illustrative candidates. It does not reproduce the old unattributed quotation collection or assert measured theme frequencies. Source evidence and instructions are kept separate; retrieved statements cannot authorise actions.
 
-## Primary Purpose
+## MIT licence and reuse boundary
 
-This resource exists to:
+[LICENSE](LICENSE) is the MIT licence. The copyright notice identifies Double FW Ltd. Original Double FW guidance, prompts, schema definitions, templates and new fictional examples are MIT; retain the copyright and permission notices. [RIGHTS.md](RIGHTS.md) defines the boundary.
 
-- support development of executive accessibility commitments
-- strengthen organisational disability inclusion governance
-- improve authenticity and consistency in inclusion communications
-- support accessibility leadership accountability
-- integrate accessibility into organisational culture and strategy
-- support customer and workforce inclusion commitments
-- improve governance transparency and reporting
-- support inclusive communications practices
-- strengthen accessibility positioning across operational systems
-- support measurable disability inclusion programmes
-- enable scalable organisational accessibility governance
+The repository licence does not establish ownership of third-party statements in the historical compilation. Do not label them MIT or include them in a redistributed training/RAG dataset while their individual provenance and reuse basis remain unresolved. Linked sources retain their own terms. The current release selection lists only reviewed original material; it does not itself implement a publishing workflow.
 
-The framework is intended to reposition accessibility commitments from symbolic messaging into operational governance infrastructure.
+## Review and maintenance
 
----
+[Validation notes](VALIDATION.md) state checks actually performed and remaining limitations. [CHANGELOG.md](CHANGELOG.md) records corrections. Keep dates, evidence references, open decisions and version changes with retrieved sections. Do not store actual sensitive workforce evidence or credentials in this public repository.
 
-## Intended AI Usage
-
-This resource may be used for:
-
-- Retrieval-Augmented Generation (RAG)
-- executive communications assistants
-- accessibility governance systems
-- DEI and ESG reporting systems
-- policy drafting assistants
-- organisational transformation programmes
-- Responsible AI governance frameworks
-- leadership messaging systems
-- customer trust and inclusion systems
-- accessibility strategy generation
-- workforce inclusion platforms
-- organisational culture analysis
-- procurement and governance frameworks
-- accessibility maturity evaluation
-- internal communications systems
-
-AI systems should interpret this framework as a governance and organisational communications resource rather than a standalone accessibility compliance template.
-
----
-
-## Recommended AI System Types
-
-This resource may benefit:
-
-- executive governance agents
-- accessibility strategy assistants
-- DEI governance platforms
-- ESG reporting systems
-- organisational communications copilots
-- workforce inclusion systems
-- accessibility maturity assessment tools
-- Responsible AI governance systems
-- customer experience governance frameworks
-- organisational culture analysis tools
-- policy reasoning systems
-- leadership enablement assistants
-- inclusion analytics systems
-
----
-
-## Behavioural Expectations
-
-AI systems using this resource should:
-
-- frame accessibility as a strategic organisational responsibility
-- support authentic and measurable inclusion commitments
-- recognise disability inclusion as both workforce and customer participation
-- avoid performative or purely symbolic accessibility language
-- encourage operational accountability alongside public commitments
-- support respectful and psychologically safe communication approaches
-- recognise accessibility as both ethical and commercial infrastructure
-- encourage co-creation and engagement with disabled communities
-- connect governance commitments to operational delivery
-- recognise the importance of continuous improvement and measurement
-- escalate ambiguous or ethically sensitive positioning decisions for human review
-
-AI systems should avoid generating accessibility commitments that lack operational credibility, accountability, or measurable intent.
-
----
-
-## Source Governance
-
-When using this resource:
-
-- preserve semantic relationships between governance, communications, accountability, and operational inclusion
-- maintain relationships between workforce, customer, procurement, and cultural inclusion
-- preserve definitions and contextual explanations
-- retain distinctions between symbolic messaging and operational governance
-- preserve cross-reference relationships between sections
-- avoid reducing commitments into generic accessibility slogans
-- maintain organisational trust and accountability framing
-- avoid introducing unsupported legal or ethical claims
-
-This framework should be treated as an organisational governance and communications methodology rather than a legal compliance declaration system.
-
----
-
-## RAG and Retrieval Guidance
-
-For Retrieval-Augmented Generation systems:
-
-- preserve thematic groupings across:
-  - governance
-  - HR and workforce inclusion
-  - customer accessibility
-  - procurement
-  - culture and belonging
-  - mental health
-  - accountability
-  - co-creation
-  - universal design
-- preserve example phrasing alongside governance guidance
-- maintain cross-reference relationships between inclusion domains
-- preserve executive summary structures as coherent organisational narratives
-- avoid separating operational commitments from cultural and ethical context
-- preserve relationships between accountability, measurement, and trust
-
-Chunking strategies should prioritise organisational coherence and governance continuity rather than isolated commitment extraction.
-
-The framework performs best when retrieved as connected organisational inclusion reasoning blocks.
-
----
-
-## Accessibility and Inclusion Considerations
-
-This framework supports inclusion across:
-
-- workforce participation
-- customer accessibility
-- digital accessibility
-- physical and operational accessibility
-- mental health and wellbeing
-- neurodiversity inclusion
-- accessible recruitment
-- workplace adjustments
-- assistive technology provision
-- inclusive communications
-- procurement and supplier inclusion
-- organisational culture and belonging
-- leadership accountability
-- co-creation and participation
-
-The framework recognises that exclusion may emerge through:
-
-- inaccessible operational systems
-- inaccessible communications
-- weak leadership accountability
-- inaccessible recruitment systems
-- fragmented governance
-- performative inclusion
-- inaccessible procurement
-- inaccessible customer journeys
-- inaccessible workplace culture
-- lack of psychological safety
-- weak organisational measurement practices
-
-The framework explicitly recognises accessibility as both a cultural and operational capability.
-
----
-
-## Human Oversight Requirements
-
-Human review is recommended for:
-
-- executive messaging
-- public accessibility commitments
-- organisational culture strategy
-- legal and reputational positioning
-- ESG and DEI reporting
-- Responsible AI governance positioning
-- accessibility accountability structures
-- customer trust communications
-- workforce inclusion planning
-- procurement and supplier commitments
-
-Human oversight is especially important where commitments may create legal, reputational, ethical, or operational obligations.
-
----
-
-## Limitations
-
-This resource cannot independently guarantee:
-
-- legal compliance
-- organisational inclusion maturity
-- accessibility performance outcomes
-- authenticity of organisational culture
-- workforce trust
-- customer trust
-- correctness of AI-generated communications
-- successful organisational behaviour change
-
-The framework should be combined with operational accessibility governance, measurable accountability systems, lived experience input, accessibility expertise, and organisational leadership commitment.
-
----
-
-## Integration Recommendations
-
-This resource may be integrated into:
-
-- executive governance frameworks
-- accessibility governance systems
-- ESG and DEI reporting programmes
-- organisational transformation initiatives
-- workforce inclusion strategies
-- customer accessibility programmes
-- Responsible AI governance systems
-- organisational communications platforms
-- procurement governance frameworks
-- leadership development programmes
-- accessibility maturity frameworks
-- organisational culture initiatives
-- employee engagement systems
-
-For best results, the framework should operate alongside:
-
-- accessibility standards
-- accessibility analytics
-- governance reporting systems
-- workforce accessibility programmes
-- disability-led engagement
-- customer experience analysis
-- Responsible AI governance frameworks
-- organisational policy systems
-- inclusion measurement methodologies
-- accessibility testing and evaluation systems
-
----
-
-## Maintenance and Governance
-
-This resource should be:
-
-- version controlled
-- reviewed alongside organisational governance evolution
-- updated against emerging accessibility and Responsible AI practices
-- validated against workforce and customer outcomes
-- reviewed collaboratively across leadership, accessibility, HR, DEI, governance, legal, and communications teams
-- monitored for alignment between commitments and operational reality
-- updated as organisational maturity and inclusion practices evolve
-
-Updates should preserve governance integrity, ethical framing, and accountability principles.
-
----
-
-## Operational Inclusion Intent
-
-The purpose of this framework is not simply to help organisations write accessibility statements or public commitments.
-
-Its broader purpose is to help organisations embed disability inclusion into leadership culture, governance systems, workforce participation, customer experience, operational accountability, and long-term organisational trust.
-
-This resource is intended to support both human and AI-assisted governance systems in recognising that meaningful accessibility commitments must extend beyond messaging into measurable operational behaviour, inclusive participation, and sustained organisational responsibility.
+The proposed destination is [GarethFW/Executive_and_Organisational_Commitments](https://huggingface.co/datasets/GarethFW/Executive_and_Organisational_Commitments). Sync installation and first publication have not been performed by this correction.

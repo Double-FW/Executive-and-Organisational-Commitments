@@ -1,0 +1,50 @@
+{
+  "selection_version": "1.0.0",
+  "destination_dataset": "GarethFW/Executive_and_Organisational_Commitments",
+  "original_material_license": "MIT",
+  "selection_status": "reviewed_original_material_for_future_export_not_uploaded",
+  "allow_files": [
+    "AGENTS.md",
+    "CHANGELOG.md",
+    "Commitments on Disability Inclusion.md",
+    "LICENSE",
+    "PUBLIC_SOURCE_MAP.md",
+    "README.md",
+    "RIGHTS.md",
+    "START_HERE.md",
+    "VALIDATION.md",
+    "evidence/RESEARCH-METHOD-AND-LIMITATIONS.md",
+    "evidence/SOURCE_REGISTER.md",
+    "evidence/public-references.json",
+    "examples/WORKED-EXAMPLE.md",
+    "prompts/01-scope-and-intake.md",
+    "prompts/02-evidence-map.md",
+    "prompts/03-gap-analysis.md",
+    "prompts/04-drafting.md",
+    "prompts/05-delivery-and-measurement.md",
+    "prompts/06-assurance.md",
+    "prompts/07-review-and-renewal.md",
+    "prompts/README.md",
+    "schemas/README.md",
+    "schemas/claim.schema.json",
+    "schemas/escalation.schema.json",
+    "schemas/source-record.schema.json",
+    "templates/commitment-delivery-record.yaml"
+  ],
+  "exclude_files": [
+    "Executive Commitments - RAW Data.txt",
+    "evidence/corpus-inventory.json"
+  ],
+  "excluded_prefixes": [
+    ".git/"
+  ],
+  "include_history": false,
+  "include_external_linked_content": false,
+  "rules": [
+    "Unknown/new files are excluded until reviewed.",
+    "Preserve source path/revision, complete logical sections, evidence limits and example status.",
+    "Do not count prompts, schemas, examples or overlapping document/chunk views as independent empirical evidence.",
+    "No unresolved third-party extracts, private operational records or credentials.",
+    "Carry LICENSE and RIGHTS.md; public access is not reuse permission."
+  ]
+}

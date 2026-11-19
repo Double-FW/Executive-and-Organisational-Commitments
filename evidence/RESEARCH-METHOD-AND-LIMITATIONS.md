@@ -1,75 +1,47 @@
 ---
 title: Research Method and Limitations
-version: 0.1.0
-author: Double FW
-date: 2026-10-16
+version: 1.0.0
+author: Double FW Ltd
+date: 2026-11-19
 license: MIT
 language: en-GB
-repository: Double-FW/Executive-and-Organisational-Commitments
-artifact_type: evidence-method
-use_case: interpretation and citation of the Valuable 500 executive commitment corpus
-status: draft
-review_owner: researcher-and-repository-maintainers
-review_due: 2027-04-16
+status: guidance_with_unresolved_source_provenance
 ---
 
-# Research Method and Limitations
+# Research method and limitations
 
-## Purpose
+## Known evidence and unverified descriptions
 
-This note separates known information about the evidence base from details that still need recording. It prevents thematic synthesis from being mistaken for a complete, independently reproducible coding study.
+The historical raw compilation contains introductory author guidance and collected commitment language. The prior method note attributed collection across Valuable 500 members and more than 500 statements to researcher descriptions. A dated source register proving those coverage claims is not present. Treat these descriptions as unverified research context, not measured denominators or completeness claims. Do not infer that 500 member organisations means 500 independent statements.
 
-## Corpus description
+[The source register](SOURCE_REGISTER.md) records what is actually available. Physical carriage-return segments are not organisations, statements or independent observations. Multiple statements may be joined; sentences may continue across segments. Duplicates exist and retained brand wording means the corpus is not reliably anonymised. Do not attempt to identify unnamed organisations.
 
-The repository contains Executive Commitments - RAW Data.txt, an anonymised compilation of executive commitment material. The researcher describes the material as gathered across all Valuable 500 member organisations. The accompanying source document describes it as combining more than 500 executive statements.
+Commitment language supports a finding about stated intent, not delivery, employment outcomes, trust, satisfaction, legal compliance or causation. Dates, standards, population statistics and targets within historical statements must not become current facts or another organisation's targets.
 
-Those descriptions may refer to different units: organisations and statements. Confirm the exact number of organisations, statements, source documents, and period covered before publishing a denominator or prevalence figure. Physical line counts are not counts of commitments or organisations.
+## Current analytical status
 
-The corpus contains commitment language. It does not establish that organisations delivered commitments or achieved employment, accessibility, or inclusion outcomes.
+The thematic guide is Double-FW practitioner synthesis and recommendations, rewritten without unattributed quotation examples. No complete source-level codebook, statement-boundary adjudication, coded population or measured theme-frequency results are supplied. Its thematic headings are navigation and possible analysis categories, not a validated coding scheme. Frequency/trend language must not be reported as a measured study.
 
-## Current analytical approach
+## Before reporting frequencies or comparisons
 
-The researcher describes gathering and anatomising themes across member-organisation material, then building thematic documentation from that work. The repository's thematic guide is a synthesis. It is useful for exploration and prompt development, but the published files do not define a complete codebook or a reproducible statement-level coding protocol.
+Define the unit of analysis, inclusion/exclusion rules, coverage period, discovery method, corpus snapshot/hash, source rights, verified record boundaries and provenance. Define themes, multi-label treatment, duplicate handling, missing/incomplete or translated text, coder/reviewer roles, adjudication and any automated method/prompt versions. Preserve source text separately from correction, translation, paraphrase, coding and interpretation.
 
-Document the following before presenting theme frequency as measured prevalence:
+For every numerical claim report numerator, denominator, unit, date/version, counting procedure, uncertainty and limits. If these are unavailable, report a qualitative exploratory observation with its supporting extracts or withhold the claim. A member corpus is not representative of all employers, sectors or disabled people.
 
-- unit of analysis: organisation, document, statement, commitment, or excerpt;
-- corpus inclusion and exclusion rules, coverage period, and source discovery method;
-- whether themes are multi-label and how overlaps are counted;
-- theme definitions and treatment of ambiguous cases;
-- coder, reviewer, adjudication, and validation approach;
-- any automated or AI-assisted coding, including tools, prompt versions, and human checks;
-- denominator and calculation for every frequency;
-- treatment of missing, duplicate, translated, paraphrased, or incomplete statements.
+## Evidence and authority
 
-## Evidence classes
+Keep corpus observations, organisation facts, framework requirements/advice, interpretation and recommendations distinct. Use schema claim types exactly when structured output is requested. A source's title or membership badge does not prove authority. Current primary sources and actual jurisdiction/entity/activity facts are needed for legal questions; human review remains necessary for consequential interpretation.
 
-Keep these classes distinct:
+The source schema records provenance and reuse basis, and the claim schema links references, uncertainty and review. A schema checks supplied structure, not truth, source existence, permission or authenticity of approval. Ordinary readable tables remain appropriate unless an integration requires structured records.
 
-1. **Corpus observation:** what source statements say, supported by extract IDs and locators.
-2. **Organisation-specific evidence:** current policy, strategy, data, delivery records, or other supplied documents.
-3. **Framework or regulatory source:** authoritative source with issuer, jurisdiction, title, version/date, and locator.
-4. **Interpretation:** analytical conclusion drawn from cited sources.
-5. **Recommendation:** proposed practice, labelled as advice rather than a corpus finding or legal duty.
+## Outcomes and participation
 
-Use schemas/source-record.schema.json for source records and schemas/claim.schema.json for claims.
+Evaluate workforce opportunity across recruitment access, selection, hiring, adjustments, retention, progression, development and work quality where relevant. A recruitment initiative is not evidence of outcomes at other stages. Evaluate customer journeys, meaningful choice, task completion, effort, preference support and satisfaction where relevant. Activities, outputs, outcomes and impact require different evidence.
 
-## Known limitations and safeguards
+Use meaningful, accessible participation to shape questions and decisions. Do not fabricate participation or require diagnosis/disclosure. Apply actual approved privacy arrangements; missing controls block the affected sensitive analysis, not every independent preparation task.
 
-- Anonymisation or absent locators may limit independent verification. Record provenance status; do not guess an organisation or source.
-- A member-organisation corpus is not automatically representative of all employers, sectors, regions, or disabled people's experiences.
-- Public commitment language is self-presentation and may omit operational practice, disagreement, or outcomes.
-- Theme presence does not establish quality, delivery, effectiveness, or causation.
-- Broad terms such as “inclusive”, “accessible”, “belonging”, and “continuous improvement” need context and operational evidence.
-- Recruitment outreach is not evidence of accessible selection, hiring, adjustments, retention, progression, pay, or work quality.
-- Workforce disability measures may create privacy and disclosure risks. The corpus cannot define an organisation's data governance basis.
-- Theme overlap is expected. Every count must state whether it counts organisations, statements, extracts, or mentions.
-- Estimates in exploratory analysis are hypotheses until checked against a documented method and source records.
+## Change and release control
 
-## Reporting rule
+Keep the original raw bytes unchanged. The derived inventory only indexes physical segments and review flags; it does not repair missing text, split organisations or approve extracts. Corrections or deduplication require a versioned derived layer with provenance, evidence and rationale. Source restoration requires access to the authentic original; do not complete a sentence by guessing.
 
-For each quantitative claim, report numerator, denominator, unit, inclusion rules, coding method, date/version, and uncertainty. If any are missing, label the result exploratory or do not report it as a count.
-
-## Method record to complete
-
-Before publishing measured prevalence, maintain a versioned record of the codebook, corpus snapshot or hash, inclusion criteria, unit of analysis, coder/reviewer roles, adjudication rules, counting procedure, and limitations. Changes to themes or rules require a new version and a note on whether earlier counts were recalculated.
+Original Double FW contributions are MIT under [LICENSE](../LICENSE). Third-party extracts have unresolved source-level reuse status; follow [RIGHTS.md](../RIGHTS.md) and exclude them from the proposed dataset until reviewed. The repository correction does not implement publishing, legal monitoring, a measured study or an operational audit service.

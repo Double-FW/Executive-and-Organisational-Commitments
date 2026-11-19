@@ -1,312 +1,107 @@
-# Executive Commitments on Disability Inclusion
-
-## Foundations of Accessibility in Corporate Communication
-Organisations must clearly articulate their objectives regarding disability inclusion. These objectives should align with brand values, mission statements, and cultural principles. Accessibility is positioned not only as a compliance requirement but as a cultural and strategic imperative.  
+# Executive commitments on disability inclusion
 
-**Prompts for framing commitments include:**
-- Clarifying membership in campaigning or advocacy groups.  
-- Linking disability inclusion to brand values.  
-- Identifying sector-specific obligations.  
-- Highlighting staff schemes and achievements.  
-- Referencing relevant laws and standards (e.g., WCAG, Equalities legislation).  
-- Emphasising shared responsibility communicated by executives.  
-- Articulating strategic aims such as engagement with aging populations.  
-- Outlining partnerships with charities or disability organisations.  
+**Double FW Ltd · Version 1.0 · 19 November 2026 · MIT**
 
-**Definitions:**
-- *Accessibility* – The practice of designing environments, services, and communications so that people with disabilities can participate fully.  
-- *Disability Inclusion* – Embedding respect, opportunity, and equity for people with disabilities across employment, customer service, and organisational culture.  
-
----
+## Purpose, evidence and status
 
-## Human Resources and Workplace Culture
-Commitments often begin with HR policies that emphasise respect, diversity, and opportunity. Organisations pledge to remove barriers, stigmas, and taboos, fostering environments where employees of all abilities can succeed.  
+This is Double-FW practitioner guidance for developing commitments, not a measured account of what organisations have delivered. The themes originated in exploratory synthesis of collected commitment language. The historical corpus has unresolved provenance, record boundaries and reuse status; see [the research method](evidence/RESEARCH-METHOD-AND-LIMITATIONS.md).
 
-**Typical commitments include:**
-- Inclusive leadership training for managers.  
-- Reviewing reasonable accommodation processes.  
-- Partnering with recruitment and referral networks in the disability community.  
-- Ensuring accessible workplaces and employment pathways.  
-- Learning from lived experiences of employees with disabilities.  
+All candidate wording below is newly written for illustration. It is not a quotation from a named or unnamed organisation, evidence of adoption, or a recommended universal target. Do not infer implementation, effectiveness, frequency or causation from a theme or promise. Dates, owners, authority, resources and targets must come from actual decisions and evidence.
 
-**Table: HR Commitments and Phrasing**
+## 1 Foundations: promise, authority and scope
 
-| Commitment Area | Example Turn of Phrase | Guidance |
-|-----------------|------------------------|----------|
-| Respect & Diversity | “We treat each other carefully and respectfully.” | Use language that emphasises care and respect. |
-| Removing Barriers | “We aim to foster an environment where all abilities can succeed.” | Highlight barrier removal as a proactive measure. |
-| Recruitment | “We are exploring recruitment partners in the disability community.” | Frame recruitment as outreach and partnership. |
+A brand makes a promise; its values help frame that promise. Values and mission can guide priorities and tone but do not demonstrate practice. Identify the actual organisation, business unit, workforce/customer audience, services, countries and intended decision. Separate duties, approved voluntary commitments, current practice, approved future work and new proposals.
 
----
+Ask what needs to change for people, why it matters, who has authority, what can actually be delivered and what evidence will show progress. Membership of an advocacy group, a public pledge or a benchmark is context, not proof of performance or permission to copy wording. Mention partnerships and achievements only when current evidence supports their exact scope.
 
-## Digital Accessibility and Customer Experience
-Organisations commit to improving digital accessibility, ensuring compliance with international standards, and embedding accessibility into product design.  
+Use [the public source map](PUBLIC_SOURCE_MAP.md) for relevant methods. Legal references require current primary sources, applicable scope and competent review. WCAG is technical guidance/a standard family, not a universal legal duty in itself. A vague reference to equality legislation cannot establish which jurisdiction, provision or requirement applies.
 
-**Key commitments include:**
-- Monitoring and updating accessibility features according to WCAG.  
-- Removing blockers for assistive technology users.  
-- Implementing “Accessible by Design” approaches.  
-- Ensuring accessible customer service across branches, call centres, and digital channels.  
+## 2 Workforce opportunity and culture
 
-**Definitions:**
-- *WCAG (Web Content Accessibility Guidelines)* – International standards for making web content accessible to people with disabilities.  
+Plan equitable opportunity across recruitment access, selection, hiring, adjustments, retention, progression, development and work quality. Check the entire relevant journey, including recruitment technology, assessments, onboarding, learning, performance processes, benefits and exit. Evidence about outreach cannot establish fair selection, retention or progression.
 
-**Table: Digital Accessibility Commitments**
+Support autonomy, respectful barrier conversations and confidential routes to adjustments. Do not make diagnosis, disclosure or participation in a staff network a condition for being treated inclusively. Accessible communication, psychological safety and appropriate support matter alongside formal processes. Apply actual local legal and privacy arrangements rather than assuming a universal employment rule.
 
-| Area | Example Phrase | Guidance |
-|------|----------------|----------|
-| Standards | “Monitor and update accessibility features according to WCAG.” | Reference recognised international standards. |
-| Inclusive Design | “Implement an Accessible by Design approach.” | Embed accessibility at the start of product development. |
-| Customer Service | “Ensure accessible service across all channels.” | Highlight multi-channel accessibility. |
+## 3 Digital access, service journeys and experience
 
----
+Define relevant channels: websites/apps, branches, contact centres, documents, events and support. Identify actual tasks, entry and exit routes, alternatives, preference support and dependencies. Technical accessibility is necessary evidence within its scope, but does not by itself establish equitable service, usability, trust or satisfaction.
 
-## Governance, Engagement, and Awareness
-Commitments extend to governance structures, awareness campaigns, and engagement with disability ambassadors. Organisations pledge to integrate disability inclusion into board-level agendas and diversity strategies.  
+Connect applicable standards and approved baselines to design, procurement, testing, maintenance and remediation. Measure task completion, navigation, effort/time, content consumption, choice, recovery and satisfaction where appropriate. Do not promise access for every person in every circumstance on the strength of a scan or a single study. State scope, methods, gaps and the support/recovery route.
 
-**Examples of phrasing:**
-- “We commit to ensuring disability is on the agenda at board-level.”  
-- “We leverage disability ambassadors to eliminate barriers.”  
-- “We embed accessibility throughout product and service design.”  
+## 4 Governance and shared responsibility
 
-**Table: Governance Commitments**
+Link commitments to a real accountable human function within confirmed delegation, delivery ownership, resources, escalation, reporting and review. An executive sponsor can enable decisions but cannot substitute for delivery evidence. Distributed delivery does not remove accountability.
 
-| Area | Example Phrase | Guidance |
-|------|----------------|----------|
-| Board-Level Inclusion | “Disability is on the agenda at board-level.” | Use formal governance language. |
-| Awareness | “We educate ourselves on visible and non-visible disabilities.” | Emphasise continuous learning. |
-| Engagement | “We regularly engage with pan-disability groups.” | Highlight dialogue and co-creation. |
+A draft plan may identify an owner or budget as decision_required. That allows preparatory work to continue; it does not appoint the role or authorise spending. Require actual approval before publishing organisational promises, claiming performance, committing resources or acting externally.
 
----
+## 5 Intersectionality, mental health and dignity
 
-## Intersectionality and Broader Inclusion
-Organisations recognise that disability intersects with other identities such as gender, race, and sexual orientation. Commitments often include:  
-- Emphasising intersectionality in diversity strategies.  
-- Reducing stigma around mental health.  
-- Partnering with disability specialist organisations.  
-- Embedding inclusion in supply chains and procurement.  
+Disability can interact with age, race, gender, language, income, environment and other circumstances. Do not assume one identity predicts an individual's needs, preferences or experience. Mental-health experiences and disability can overlap; do not diagnose or classify people from their behaviour.
 
-**Definitions:**
-- *Intersectionality* – The interconnected nature of social identities (e.g., disability, race, gender) that create overlapping systems of discrimination or disadvantage.  
+Offer accessible, respectful methods and privacy-conscious support. Avoid compulsory storytelling, disclosure or pressure to represent a community. Language such as all abilities or normalisation can obscure barriers or imply that people need to conform. Describe equitable participation, autonomy and removal of barriers in the organisation's actual context.
 
----
+## 6 Assistive technology and workplace adjustments
 
-## Continuous Improvement and Measurement
-Commitments stress the importance of measurement, evaluation, and continuous improvement. Organisations pledge to:  
-- Measure disability representation and inclusion.  
-- Benchmark practices externally.  
-- Use employee feedback to enhance accessibility.  
-- Commit to ongoing training and awareness.  
+Consider tools, environments, tasks, communication, working arrangements and personalised support together. Provision of a device does not prove that it works with required systems or that the person can complete their work independently. Test relevant tasks with appropriate consent and expertise, account for data flows and support, and review changes with the person affected.
 
-**Definitions:**
-- *Continuous Improvement* – A systematic approach to enhancing processes, policies, and culture over time.  
+Measure timeliness and effectiveness of the adjustment process without exposing diagnoses or confidential cases. Distinguish a proposed route, an approved process and verified experience of using it. Do not invent service-level targets or present proposed accommodations as approved.
 
----
+## 7 Universal design and accessible-by-design practice
 
-# Cross-References
-- **HR Commitments ↔ Digital Accessibility:** Both emphasise barrier removal.  
-- **Governance ↔ Intersectionality:** Board-level inclusion must reflect diverse perspectives.  
-- **Measurement ↔ Continuous Improvement:** Data-driven evaluation supports long-term progress.  
+Design for a broad range of people and circumstances from the outset. Universal design is an aim to reduce barriers, not a guarantee that a single solution will meet every need. Preserve individual choice, alternatives and appropriate adjustments.
 
-## Recruitment and Talent Acquisition
-Recruitment commitments emphasise proactive outreach, inclusive hiring practices, and partnerships with disability-focused organisations. Organisations pledge to create pipelines that attract candidates with disabilities at all levels.
+Connect commitments to accessible UX design systems and brand systems, including foundations, components, content, interaction, implementation guidance and testing evidence. Prefer reusable improvements, while checking the actual service context. Accessible-by-design wording needs a specified method, ownership and evidence; the phrase alone proves nothing.
 
-**Key commitments include:**
-- Outreach to universities and disability offices.  
-- Certified disability recruiting training for recruiters.  
-- Adapting job application technology to support accessibility.  
-- Sourcing diverse talent through social enterprise partners.  
+## 8 Supply chain and procurement
 
-**Table: Recruitment Commitments**
+Translate relevant requirements into actual procurement and contract terms, supplier evaluation, acceptance evidence, remediation and review. Distinguish a proposal to include a clause from an agreed contractual obligation. Supplier declarations, certificates or reports need scope, version and source review; none automatically establishes whole-service compliance.
 
-| Area | Example Phrase | Guidance |
-|------|----------------|----------|
-| Outreach | “We are exploring recruitment partners in the disability community.” | Highlight proactive engagement. |
-| Training | “Recruiters participate in certified disability recruiting training.” | Emphasise skill-building. |
-| Technology | “Ensure job application technology supports individuals to be at their best.” | Stress accessible systems. |
+Supporting disability-owned suppliers may be an approved organisational priority. Check what definition, verification and procurement arrangements are actually adopted before making a claim. Do not equate supplier identity with accessible products or performance.
 
----
+## 9 Employee networks, allyship and participation
 
-## Assistive Technology and Workplace Adjustments
-Commitments include identifying and implementing assistive technologies that enable employees with disabilities to work independently. Organisations pledge to streamline workplace adjustments and ensure processes are seamless.
+Staff networks and champions can contribute insight, influence and change. Their existence is not proof that all disabled people are represented or that operational teams have capacity. Do not transfer delivery responsibility to unpaid volunteers.
 
-**Examples of phrasing:**
-- “Identify and implement assistive technologies.”  
-- “Facilitate a seamless process for workplace adjustments.”  
-- “Install assistive devices to complete tasks efficiently.”  
+Use accessible recruitment and participation methods, appropriate support and payment arrangements where relevant, and show how input changes decisions. Preserve disagreements and unresolved feedback. Neither a consultation event nor a framework's inherited knowledge replaces meaningful involvement of people affected by the specific decision.
 
-**Definitions:**
-- *Assistive Technology* – Tools or devices that help individuals with disabilities perform tasks independently.  
+## 10 Measurement, benchmarking and evidence
 
----
+Choose a measure that fits the intended outcome and define its unit, scope, method, baseline, reporting period and limitations. Keep these levels distinct:
 
-## Mental Health and Wellbeing
-Organisations recognise that disability inclusion must encompass visible and non-visible disabilities, including mental health. Commitments often focus on reducing stigma, raising awareness, and providing support.
+| Level | Meaning | Interpretation limit |
+| --- | --- | --- |
+| Activity | Work undertaken, such as reviewing a process | Does not establish improved access |
+| Output | A produced or changed item, such as revised guidance | Does not establish effective adoption |
+| Outcome | A demonstrated change for people within scope | Needs suitable evidence, comparison and uncertainty |
+| Impact | A broader or sustained effect | Requires stronger evidence; do not assume causation |
 
-**Key commitments include:**
-- Reducing stigma around discussing mental health.  
-- Holding regular programming and highlighting resources.  
-- Promoting awareness of visible and non-visible disabilities.  
-- Empowering employees to discuss wellbeing challenges openly.  
+Training attendance, representation counts and audit findings can be useful within their scope. Do not use one as a substitute for another or invent a universal percentage. Benchmark definitions and populations may differ. Disability-related data requires appropriate purpose, lawful arrangements, minimisation and controls; do not infer identity or prescribe disclosure.
 
-**Table: Mental Health Commitments**
+## 11 Customer trust and brand promise
 
-| Area | Example Phrase | Guidance |
-|------|----------------|----------|
-| Stigma Reduction | “We commit to reducing the stigma around discussing mental health.” | Use language of openness. |
-| Awareness | “We will educate ourselves on visible and non-visible disabilities.” | Stress continuous learning. |
-| Support | “Providing a supportive and inclusive environment.” | Highlight empowerment. |
+Investigate how actual service experiences support the organisation's approved values. The Double-FW POURS approach connects functional access with feeling seen, capable, confident, safe and valued. These are research questions and intended outcomes, not feelings an organisation can declare for its customers. Satisfactory is an additional Double-FW experience principle; WCAG retains four POUR principles.
 
----
+Use inclusive brand/message research alongside practical service evidence. A positive impression does not erase a barrier, and technical conformance does not prove loyalty. Retain choice, preferences, dignity and differences between customer groups. Connect material complaints and feedback to investigation, accountable improvement and follow-up, without inventing a legal reporting duty.
 
-## Universal Design and Product Accessibility
-Commitments extend to product and service design, embedding accessibility principles from the outset. Organisations pledge to normalise universal design and ensure products are usable by all.
+## 12 Learning, assurance and renewal
 
-**Examples of phrasing:**
-- “We embed Accessibility throughout our product and service design process.”  
-- “We are developing universally designed products.”  
-- “We promote the normalisation principle to ensure all can reach their potential.”  
+Review evidence, participation, delivery capacity, risks and unintended effects before seeking human approval. A review finding such as pass_for_human_approval is a recommendation to a human; it is not permission to publish. Record exact versions and real decisions in the organisation's approved system.
 
-**Definitions:**
-- *Universal Design* – Designing products and environments to be usable by all people, to the greatest extent possible, without need for adaptation.  
+Report met, partly_met, not_met, not_measurable or not_reported only when the evidence supports that classification. Keep unresolved feedback and missed commitments visible. New scope, sources, resources or evidence may require renewed approval. Do not hide a gap by quietly resetting the baseline or substituting a new promise.
 
----
+## Newly authored illustrative candidates
 
-## Supply Chain and Procurement
-Organisations embed disability inclusion into supply chains by requiring accessibility standards in procurement processes. Commitments include supporting disability-owned businesses and ensuring suppliers meet accessibility requirements.
+These are fictional wording patterns for discussion, all candidate_not_approved. Bracketed elements require actual evidence or decisions. They are not corpus quotations, achievements or ready-to-publish pledges.
 
-**Key commitments include:**
-- Embedding accessibility in RFQ requirements.  
-- Supporting disability-owned business enterprises.  
-- Sponsorship and capability building for suppliers.  
+| Area | Illustrative candidate | Before approval |
+| --- | --- | --- |
+| Workforce | We propose reviewing [specified employment process] with the people affected and bringing the findings to [confirmed decision function]. | Confirm scope, participation, authority, capacity, reporting and review |
+| Service | We propose using evidence from [specified customer journey] to prioritise barriers and assess the experience after changes. | Confirm methods, baseline, owners, resources and how support works |
+| Governance | We propose reporting delivery evidence and unresolved decisions for [approved priority] through [confirmed reporting route]. | Confirm genuine delegation, reporting frequency and decision powers |
+| Brand | We propose researching whether [specified service experience] supports [approved brand value], including functional access and how customers describe the experience. | Confirm inclusive research, privacy, participation, evidence and approval |
 
-**Table: Supply Chain Commitments**
+## Connections and next action
 
-| Area | Example Phrase | Guidance |
-|------|----------------|----------|
-| Procurement | “Embed disability inclusion in our supply chain through RFQ requirements.” | Stress contractual obligations. |
-| Supplier Support | “Support disability-owned business enterprise suppliers.” | Highlight empowerment. |
+Workforce opportunity links to adjustments, accessible tools and employment evidence. Customer experience links to service design, support, brand research and QA. Governance links every promise to actual decisions, resources and review. Procurement links requirements to supplier and acceptance evidence. Participation should influence all these decisions.
 
----
-
-## Employee Networks and Allyship
-Commitments highlight the importance of employee networks, ambassadors, and allyship. Organisations pledge to create spaces where employees with disabilities can shape inclusion strategies.
-
-**Examples of phrasing:**
-- “Developing a thriving employee disability and engagement network.”  
-- “Leveraging disability ambassadors to promote inclusion.”  
-- “Increase allyship and inclusive leadership.”  
-
-**Definitions:**
-- *Allyship* – Active support for the rights and inclusion of marginalised groups, including people with disabilities.  
-
----
-
-## Measurement, Benchmarking, and Accountability
-Organisations commit to measuring disability inclusion, benchmarking externally, and reporting progress. Accountability is emphasised through board-level oversight and executive sponsorship.
-
-**Key commitments include:**
-- Measuring disability representation.  
-- Participating in external benchmarking.  
-- Appointing executive sponsors for accessibility.  
-- Reporting progress to the board.  
-
-**Table: Accountability Commitments**
-
-| Area | Example Phrase | Guidance |
-|------|----------------|----------|
-| Measurement | “Measuring disability in the organisation to understand gaps.” | Stress data-driven evaluation. |
-| Benchmarking | “Participating in external benchmarking of practices.” | Highlight transparency. |
-| Sponsorship | “Appoint a director responsible for accessibility work stream.” | Emphasise leadership. |
-
----
-
-## Customer Accessibility and Service
-Commitments extend to customers, ensuring accessible experiences across physical, digital, and service channels. Organisations pledge to tailor services to diverse needs.
-
-**Examples of phrasing:**
-- “We will continue to work, improve and ensure accessibility to all customers.”  
-- “Providing accessible experiences in reception branches, call centres, and digital channels.”  
-- “Improving the experience for people with disabilities using our websites.”  
-
-**Definitions:**
-- *Customer Accessibility* – Ensuring products, services, and communications are usable by customers with disabilities.  
-
----
-
-## Culture of Inclusion and Belonging
-Commitments emphasise fostering a culture where employees feel safe, valued, and able to bring their authentic selves to work. Organisations pledge to integrate inclusion into everyday practices.
-
-**Examples of phrasing:**
-- “We are committed to fostering a culture where everyone is empowered to bring their authentic self.”  
-- “An inclusive workplace respects uniqueness among individuals.”  
-- “We celebrate and learn from diverse ideas, backgrounds, and experiences.”  
-
-**Table: Cultural Commitments**
-
-| Area | Example Phrase | Guidance |
-|------|----------------|----------|
-| Belonging | “Everyone must feel safe, valued, and heard.” | Stress psychological safety. |
-| Authenticity | “Bring their authentic selves to work.” | Highlight openness. |
-| Everyday Inclusion | “Integrating diversity effortlessly into everyday working.” | Stress normalisation. |
-
----
-
-## Continuous Learning and Co-Creation
-Organisations commit to ongoing learning, co-creation with disability communities, and adapting to changing perspectives. This ensures inclusion evolves with societal needs.
-
-**Examples of phrasing:**
-- “We regularly engage with pan-disability groups.”  
-- “We co-create and test solutions with different communities.”  
-- “We are committed to listening, learning, and leading.”  
-
-**Definitions:**
-- *Co-Creation* – Collaborative development of solutions with stakeholders, including people with disabilities.  
-
----
-
-# Final Cross-References
-- **Recruitment ↔ Assistive Technology:** Recruitment pipelines must align with accessible workplace adjustments.  
-- **Mental Health ↔ Culture of Inclusion:** Reducing stigma supports authentic belonging.  
-- **Universal Design ↔ Customer Accessibility:** Embedding design principles ensures inclusive customer experiences.  
-- **Supply Chain ↔ Accountability:** Procurement standards reinforce measurable commitments.  
-
-# Executive Summary
-
-## Overview
-This guide synthesises organisational commitments to disability inclusion across multiple domains: human resources, digital accessibility, governance, recruitment, assistive technology, mental health, universal design, supply chain, employee networks, accountability, customer accessibility, culture, and continuous learning. Each section provides guidance on phrasing, definitions, and examples to support consistent and authentic communication.
-
-## Key Themes
-- **Respect and Belonging:** Organisations emphasise respect, authenticity, and creating environments where employees feel valued and safe.  
-- **Barrier Removal:** Commitments consistently highlight removing physical, digital, and attitudinal barriers.  
-- **Inclusive Recruitment:** Outreach, training, and accessible technology are central to attracting diverse talent.  
-- **Assistive Technology:** Providing tools and adjustments ensures independence and productivity for employees with disabilities.  
-- **Mental Health:** Reducing stigma and promoting wellbeing are integral to inclusion strategies.  
-- **Universal Design:** Embedding accessibility principles into product and service design ensures usability for all.  
-- **Supply Chain Inclusion:** Procurement processes increasingly require accessibility standards and support disability-owned businesses.  
-- **Employee Networks:** Disability ambassadors and networks empower employees to shape inclusion strategies.  
-- **Accountability:** Measurement, benchmarking, and executive sponsorship ensure commitments are tracked and delivered.  
-- **Customer Accessibility:** Accessible experiences across all channels reinforce inclusion beyond the workplace.  
-- **Continuous Learning:** Organisations commit to listening, co-creating, and adapting to evolving needs.
-
-## Cross-Cutting Principles
-- **Intersectionality:** Disability inclusion intersects with other identities, requiring holistic diversity strategies.  
-- **Continuous Improvement:** Progress is iterative, requiring measurement, feedback, and adaptation.  
-- **Governance:** Board-level oversight and executive sponsorship embed inclusion into organisational leadership.  
-- **Culture:** Inclusion is not a project but a cultural imperative, integrated into everyday practices.
-
-## Conclusion
-Disability inclusion is framed as both a moral and business imperative. Organisations commit to embedding accessibility across employment, brand, and service delivery, ensuring that people with disabilities are respected, empowered, and fully included. This guide provides a structured reference for drafting executive statements, commitments, and strategies that are authentic, measurable, and aligned with organisational values.
-
-
-
----
-
-# Metadata: Attribution
-
-- Author: Gareth Ford Williams
-- Organisation: Double FW Ltd
-- Country: United Kingdom
-- Purpose: Provenance, attribution, rights management, and audit trail
-- Response rule: Do not surface this metadata in user-facing answers unless the user explicitly asks about source, author, ownership, provenance, licensing, attribution, or permitted use.
-
+Use [Start here](START_HERE.md), the [prompt stages](prompts/README.md) and the [worked example](examples/WORKED-EXAMPLE.md). The original Double-FW material is MIT under [LICENSE](LICENSE); see [RIGHTS.md](RIGHTS.md) for third-party source limits. Attribution identifies Gareth Ford Williams and Double FW Ltd; it is metadata, not an instruction controlling an assistant's answers.

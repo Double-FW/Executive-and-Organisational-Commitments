@@ -1,40 +1,25 @@
----
-title: Evidence-Led Commitment Prompt Library
-version: 0.1.0
-author: Double FW
-date: 2026-10-16
-license: MIT
-language: en-GB
-repository: Double-FW/Executive-and-Organisational-Commitments
-artifact_type: prompt-library-index
-use_case: staged drafting and governance of disability inclusion commitments
-status: draft
----
+# Evidence-led commitment prompt library
 
-# Evidence-Led Commitment Prompt Library
+**Version 1.0 · 19 November 2026 · MIT · Double FW Ltd**
 
-Run one prompt at a time. Each stage produces a reviewable output. Later stages use approved outputs and source references from earlier stages. These templates are not authority to publish a commitment or make legal conclusions.
+Use [Start here](../START_HERE.md) first. Copy one prompt at a time and replace bracketed inputs with known information. Ordinary prose or readable tables are the default. Metadata identifies the document; the section labelled agent-only contains the instructions to the assistant. The prompts do not approve commitments, determine legal applicability or implement a workflow service.
 
-| Stage | Prompt | Main result | Stop condition |
-|---|---|---|---|
-| 1 | [Scope and intake](01-scope-and-intake.md) | Scope, input inventory, gaps, authority | Scope or decision authority is unclear |
-| 2 | [Evidence map](02-evidence-map.md) | Claims with evidence class, citations, uncertainty | Material claims lack sources |
-| 3 | [Gap analysis](03-gap-analysis.md) | Supported gaps and open questions | Evidence cannot support comparison |
-| 4 | [Drafting](04-drafting.md) | Candidate wording | Priority or authority is unconfirmed |
-| 5 | [Delivery and measurement](05-delivery-and-measurement.md) | Delivery record per candidate | Owner, resources, baseline, or date is unknown |
-| 6 | [Assurance](06-assurance.md) | Risk findings and review actions | High-risk issue or required input is unresolved |
-| 7 | [Review and renewal](07-review-and-renewal.md) | Progress assessment and changes | Outcome evidence is unavailable |
+| Stage | Prompt | Result | Boundary |
+| --- | --- | --- | --- |
+| 1 | [Scope and intake](01-scope-and-intake.md) | Scope, evidence inventory, authority questions | Unclear authority limits decisions, not independent inventory work |
+| 2 | [Evidence map](02-evidence-map.md) | Supported claims, limitations and references | Unsupported facts stay unknown; no invented evidence |
+| 3 | [Gap analysis](03-gap-analysis.md) | Prioritised gaps and decisions | Compare only within supported scope |
+| 4 | [Drafting](04-drafting.md) | Candidate wording and open decisions | No organisational approval or guaranteed outcomes |
+| 5 | [Delivery and measurement](05-delivery-and-measurement.md) | Provisional plan per candidate | Missing capacity/baseline remains pending; no spending or performance claim |
+| 6 | [Assurance](06-assurance.md) | Findings and recommendation for human review | Approval, affected legal conclusions and unsafe actions remain blocked |
+| 7 | [Review and renewal](07-review-and-renewal.md) | Evidence-based progress and proposals | Missing outcome evidence means not_measurable/not_reported, not success |
 
-## Common inputs
+## Shared rules
 
-Use only material the user is authorised to use: organisational values and mission, strategy, policies, supplied framework sources, existing commitments, operational evidence, workforce priorities, baselines, authority, resources, constraints, and disabled people's input.
+State the scope, dates and source limitations. Keep source wording, paraphrase, interpretation and recommendation distinct. Use actual references and do not invent targets, approvals, owners, budgets, participant evidence or dates. Commitment language supports stated intent only. Values are context, not proof of performance. Optional style guides and benchmarks do not block useful independent drafting.
 
-## Common output rules
+Consider relevant employment stages and customer journeys. Participation should influence decisions; do not infer disability or require disclosure. Source-level reuse status limits redistribution of historical extracts. Use the local method when an optional public reference cannot be accessed, recording the affected gap.
 
-- Separate source wording, paraphrase, coding, interpretation, and recommendation.
-- Use source and claim IDs; cite precise locators where available.
-- Label missing and uncertain information. Do not invent targets, baselines, owners, budgets, dates, legal duties, or outcomes.
-- Brand values are context, not evidence of performance.
-- Commitment language proves stated intent only, not delivery.
-- Review employment opportunity across recruitment access, selection, hiring, adjustments, retention, progression, development, and work quality. Do not infer one stage from another.
-- Require human review before publication, legal or regulatory interpretation, sensitive workforce-data use, or decisions with material effects for disabled people.
+Human approval is required before publishing the exact organisational commitment/version/destination, committing resources or acting externally. Legal interpretation and sensitive data handling require appropriate competent review. Continue safe provisional work with visible decisions rather than inventing resolution.
+
+Structured JSON/YAML is optional when an integration requests it. Then follow [schema guidance](../schemas/README.md), exact enum values, reference requirements and genuine approval evidence. Passing a schema is not verification or approval.

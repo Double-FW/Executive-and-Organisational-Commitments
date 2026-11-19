@@ -5,44 +5,364 @@
   "description": "A claim with evidence class, traceable references, uncertainty, and review state.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["schema_version", "claim_id", "claim_text", "claim_type", "evidence_refs", "confidence", "limitations", "review_status"],
+  "required": [
+    "schema_version",
+    "claim_id",
+    "claim_text",
+    "claim_type",
+    "evidence_refs",
+    "confidence",
+    "limitations",
+    "review_status"
+  ],
   "properties": {
-    "schema_version": { "const": "1.0.0" },
-    "claim_id": { "type": "string", "minLength": 1 },
-    "claim_text": { "type": "string", "minLength": 1 },
-    "claim_type": { "enum": ["corpus_finding", "organisation_fact", "framework_requirement", "recommendation", "inference", "unknown"] },
+    "schema_version": {
+      "const": "1.1.0"
+    },
+    "claim_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "claim_text": {
+      "type": "string",
+      "minLength": 1
+    },
+    "claim_type": {
+      "enum": [
+        "corpus_finding",
+        "organisation_fact",
+        "framework_requirement",
+        "recommendation",
+        "inference",
+        "unknown"
+      ]
+    },
     "evidence_refs": {
       "type": "array",
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["ref_type", "ref_id", "locator", "supports"],
+        "required": [
+          "ref_type",
+          "ref_id",
+          "locator",
+          "supports"
+        ],
         "properties": {
-          "ref_type": { "enum": ["source_record", "organisation_document", "framework_source", "delivery_record", "other"] },
-          "ref_id": { "type": ["string", "null"] },
-          "locator": { "type": ["string", "null"] },
-          "supports": { "type": "string", "minLength": 1 }
+          "ref_type": {
+            "enum": [
+              "source_record",
+              "organisation_document",
+              "framework_source",
+              "delivery_record",
+              "other"
+            ]
+          },
+          "ref_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "locator": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "supports": {
+            "type": "string",
+            "minLength": 1
+          }
         }
       }
     },
     "confidence": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["level", "rationale"],
+      "required": [
+        "level",
+        "rationale"
+      ],
       "properties": {
-        "level": { "enum": ["high", "moderate", "low", "not_assessed"] },
-        "rationale": { "type": "string" }
+        "level": {
+          "enum": [
+            "high",
+            "moderate",
+            "low",
+            "not_assessed"
+          ]
+        },
+        "rationale": {
+          "type": "string"
+        }
       }
     },
-    "limitations": { "type": "array", "items": { "type": "string" } },
-    "review_status": { "enum": ["draft", "needs_evidence", "human_review", "approved", "rejected"] },
-    "reviewer_role": { "type": ["string", "null"] },
-    "reviewed_date": { "type": ["string", "null"], "format": "date" }
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "review_status": {
+      "enum": [
+        "draft",
+        "needs_evidence",
+        "human_review",
+        "approved",
+        "rejected"
+      ]
+    },
+    "reviewer_role": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "reviewed_date": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "approval_evidence_ref": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 1
+    },
+    "framework_context": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "required": [
+        "issuer",
+        "jurisdiction",
+        "title",
+        "version_or_date",
+        "provision_locator",
+        "source_url",
+        "authority_type",
+        "applicability_status",
+        "decision_evidence_ref"
+      ],
+      "properties": {
+        "issuer": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "jurisdiction": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "title": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "version_or_date": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "provision_locator": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "decision_evidence_ref": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "source_url": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri",
+          "minLength": 1
+        },
+        "authority_type": {
+          "enum": [
+            "legal_duty",
+            "contractual_duty",
+            "technical_requirement",
+            "approved_voluntary_commitment",
+            "practitioner_advice",
+            "unresolved"
+          ]
+        },
+        "applicability_status": {
+          "enum": [
+            "confirmed_applicable",
+            "excluded_with_reason",
+            "unresolved"
+          ]
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "required": [
+              "applicability_status"
+            ],
+            "properties": {
+              "applicability_status": {
+                "enum": [
+                  "confirmed_applicable",
+                  "excluded_with_reason"
+                ]
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "decision_evidence_ref": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        }
+      ]
+    }
   },
   "allOf": [
     {
-      "if": { "properties": { "claim_type": { "enum": ["corpus_finding", "organisation_fact", "framework_requirement"] } }, "required": ["claim_type"] },
-      "then": { "properties": { "evidence_refs": { "minItems": 1 } } }
+      "if": {
+        "required": [
+          "claim_type"
+        ],
+        "properties": {
+          "claim_type": {
+            "enum": [
+              "corpus_finding",
+              "organisation_fact",
+              "framework_requirement"
+            ]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "evidence_refs": {
+            "minItems": 1,
+            "items": {
+              "properties": {
+                "ref_id": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "locator": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "required": [
+          "review_status"
+        ],
+        "properties": {
+          "review_status": {
+            "const": "approved"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "reviewer_role",
+          "reviewed_date",
+          "approval_evidence_ref"
+        ],
+        "properties": {
+          "reviewer_role": {
+            "type": "string",
+            "minLength": 1
+          },
+          "reviewed_date": {
+            "type": "string",
+            "format": "date"
+          },
+          "approval_evidence_ref": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "required": [
+          "claim_type"
+        ],
+        "properties": {
+          "claim_type": {
+            "const": "framework_requirement"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "framework_context"
+        ],
+        "properties": {
+          "framework_context": {
+            "type": "object",
+            "properties": {
+              "issuer": {
+                "type": "string",
+                "minLength": 1
+              },
+              "jurisdiction": {
+                "type": "string",
+                "minLength": 1
+              },
+              "title": {
+                "type": "string",
+                "minLength": 1
+              },
+              "version_or_date": {
+                "type": "string",
+                "minLength": 1
+              },
+              "provision_locator": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_url": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        }
+      }
     }
-  ]
+  ],
+  "$comment": "MIT; Double FW Ltd. Review fields record supplied decisions; they cannot authenticate them."
 }
