@@ -15,3 +15,7 @@ See VALIDATION.md for executed checks and remaining limits. Earlier content rema
 ## 1.0.1 — 19 November 2026
 
 Added a readable Markdown edition of the historical compilation: separated introductory material, 379 numbered reading passages, 17 reviewed line-wrap joins, sentence-level visual paragraphs in long passages and exact-repeat flags. All source wording/order/punctuation and the original text blob are preserved. Updated reading links, provenance inventory and explicit dataset exclusions. This is a layout correction, not source attribution, deduplication, missing-text repair or rights clearance.
+
+## 1.0.2 — 19 November 2026: weekly dataset sync setup
+
+Install the fixed-destination, selected-original-source exporter, eight-file atomic publisher, Monday 08:57 UTC/manual workflow, safeguard tests and plain-English setup. Keep both raw compilations excluded, preserve source/rights/research context and use the unchanged MIT licence. No live token or upload is included in setup.
