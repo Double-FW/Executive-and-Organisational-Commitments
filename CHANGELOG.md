@@ -11,3 +11,7 @@
 - Added an explicit initial dataset selection excluding the raw compilation and physical-segment inventory. No sync workflow or Hugging Face publication is installed by this change.
 
 See VALIDATION.md for executed checks and remaining limits. Earlier content remains in Git history as historical material and must not be treated as the current edition or a rights clearance.
+
+## 1.0.1 — 19 November 2026
+
+Added a readable Markdown edition of the historical compilation: separated introductory material, 379 numbered reading passages, 17 reviewed line-wrap joins, sentence-level visual paragraphs in long passages and exact-repeat flags. All source wording/order/punctuation and the original text blob are preserved. Updated reading links, provenance inventory and explicit dataset exclusions. This is a layout correction, not source attribution, deduplication, missing-text repair or rights clearance.

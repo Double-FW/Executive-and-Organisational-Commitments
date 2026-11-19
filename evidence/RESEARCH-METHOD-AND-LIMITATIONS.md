@@ -42,6 +42,6 @@ Use meaningful, accessible participation to shape questions and decisions. Do no
 
 ## Change and release control
 
-Keep the original raw bytes unchanged. The derived inventory only indexes physical segments and review flags; it does not repair missing text, split organisations or approve extracts. Corrections or deduplication require a versioned derived layer with provenance, evidence and rationale. Source restoration requires access to the authentic original; do not complete a sentence by guessing.
+Keep the original raw bytes unchanged. The readable Markdown edition is a derived layout view with explicit passage ranges and reviewed line-wrap joins, not a source correction or verified statement database. The derived inventory only indexes physical segments and review flags; it does not repair missing text, split organisations or approve extracts. Corrections or deduplication require a versioned derived layer with provenance, evidence and rationale. Source restoration requires access to the authentic original; do not complete a sentence by guessing.
 
 Original Double FW contributions are MIT under [LICENSE](../LICENSE). Third-party extracts have unresolved source-level reuse status; follow [RIGHTS.md](../RIGHTS.md) and exclude them from the proposed dataset until reviewed. The repository correction does not implement publishing, legal monitoring, a measured study or an operational audit service.

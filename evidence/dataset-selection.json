@@ -1,5 +1,5 @@
 {
-  "selection_version": "1.0.0",
+  "selection_version": "1.0.1",
   "destination_dataset": "GarethFW/Executive_and_Organisational_Commitments",
   "original_material_license": "MIT",
   "selection_status": "reviewed_original_material_for_future_export_not_uploaded",
@@ -33,7 +33,8 @@
   ],
   "exclude_files": [
     "Executive Commitments - RAW Data.txt",
-    "evidence/corpus-inventory.json"
+    "evidence/corpus-inventory.json",
+    "Executive Commitments - RAW Data.md"
   ],
   "excluded_prefixes": [
     ".git/"
