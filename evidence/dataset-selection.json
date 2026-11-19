@@ -2,7 +2,7 @@
   "selection_version": "1.0.1",
   "destination_dataset": "GarethFW/Executive_and_Organisational_Commitments",
   "original_material_license": "MIT",
-  "selection_status": "reviewed_original_material_for_future_export_not_uploaded",
+  "selection_status": "reviewed_original_material_sync_configured_pending_first_upload",
   "allow_files": [
     "AGENTS.md",
     "CHANGELOG.md",

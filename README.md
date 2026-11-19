@@ -40,10 +40,10 @@ The revised thematic guide is Double-FW methodological guidance with newly writt
 
 [LICENSE](LICENSE) is the MIT licence. The copyright notice identifies Double FW Ltd. Original Double FW guidance, prompts, schema definitions, templates and new fictional examples are MIT; retain the copyright and permission notices. [RIGHTS.md](RIGHTS.md) defines the boundary.
 
-The repository licence does not establish ownership of third-party statements in the historical compilation. Do not label them MIT or include them in a redistributed training/RAG dataset while their individual provenance and reuse basis remain unresolved. Linked sources retain their own terms. The current release selection lists only reviewed original material; it does not itself implement a publishing workflow.
+The repository licence does not establish ownership of third-party statements in the historical compilation. Do not label them MIT or include them in a redistributed training/RAG dataset while their individual provenance and reuse basis remain unresolved. Linked sources retain their own terms. The current release selection lists only reviewed original material and is enforced by the installed publishing workflow.
 
 ## Review and maintenance
 
 [Validation notes](VALIDATION.md) state checks actually performed and remaining limitations. [CHANGELOG.md](CHANGELOG.md) records corrections. Keep dates, evidence references, open decisions and version changes with retrieved sections. Do not store actual sensitive workforce evidence or credentials in this public repository.
 
-The proposed destination is [GarethFW/Executive_and_Organisational_Commitments](https://huggingface.co/datasets/GarethFW/Executive_and_Organisational_Commitments). Sync installation and first publication have not been performed by this correction.
+The proposed destination is [GarethFW/Executive_and_Organisational_Commitments](https://huggingface.co/datasets/GarethFW/Executive_and_Organisational_Commitments). [Sync setup](huggingface/SETUP.md) and the weekly/manual workflow are installed. First publication remains unverified until HF_TOKEN is saved, an actual run succeeds and destination provenance is checked. Updates are scheduled for Mondays at 08:57 UTC.
