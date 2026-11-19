@@ -8,7 +8,7 @@ The repository's [MIT licence](LICENSE) applies to original Double FW Ltd contri
 
 ## Historical compilation and external material
 
-Executive Commitments - RAW Data.txt contains collected third-party wording as well as introductory guidance. Original publication dates, source ownership, licence/permission basis and exact statement boundaries are not established for each extract. The repository-level MIT declaration does not resolve those missing facts or relicense third-party content.
+Executive Commitments - RAW Data.txt and its derived readable Markdown edition contain collected third-party wording as well as introductory guidance. Original publication dates, source ownership, licence/permission basis and exact statement boundaries are not established for each extract. The repository-level MIT declaration does not resolve those missing facts or relicense third-party content.
 
 Preserve the compilation as historical source evidence in this repository; this correction does not grant or determine permission for its existing hosting. Exclude it, copied passages and reconstructed statement datasets from the proposed Hugging Face release until each included extract has a documented reuse basis and the relevant approval. A public URL, anonymisation, a schema field set to permitted, or availability in Git history is not proof of permission. Original statements and linked sources retain their own rights.
 
@@ -20,4 +20,4 @@ Record the source URL/title, exact extract and locator, source date/version, rig
 
 ## Release selection
 
-[evidence/dataset-selection.json](evidence/dataset-selection.json) is an explicit selection of original material for a future exporter. Raw material, its derived physical-segment inventory, operational evidence, temporary files and historical revisions are excluded. A future exporter must enforce the selection and carry the MIT notice, source path/revision, evidence limitations and fictional-example labels. This selection is documentation/configuration, not proof that export or upload has occurred. Review it when files or rights change.
+[evidence/dataset-selection.json](evidence/dataset-selection.json) is an explicit selection of original material for a future exporter. Raw material in both text and Markdown forms, its derived physical-segment inventory, operational evidence, temporary files and historical revisions are excluded. A future exporter must enforce the selection and carry the MIT notice, source path/revision, evidence limitations and fictional-example labels. This selection is documentation/configuration, not proof that export or upload has occurred. Review it when files or rights change.

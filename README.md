@@ -13,6 +13,7 @@ Turn disability-inclusion ambitions into credible, reviewable commitments: conne
 | Work through one stage at a time | [Seven-stage prompt library](prompts/README.md) |
 | See a completed fictional draft | [Worked example](examples/WORKED-EXAMPLE.md) |
 | Connect promises with policy, programmes and research | [Public Double-FW source map](PUBLIC_SOURCE_MAP.md) |
+| Read the collected historical source material | [Readable Markdown edition](Executive%20Commitments%20-%20RAW%20Data.md) |
 | Understand the evidence and its limits | [Research method](evidence/RESEARCH-METHOD-AND-LIMITATIONS.md) and [source register](evidence/SOURCE_REGISTER.md) |
 | Integrate structured records | [Schema guide](schemas/README.md) and [delivery template](templates/commitment-delivery-record.yaml) |
 | Use an AI assistant | [AGENTS.md](AGENTS.md) |
@@ -31,7 +32,7 @@ Keep applicable legal/contractual duties, approved voluntary commitments, verifi
 
 ## Evidence and original material
 
-[The original raw compilation](Executive%20Commitments%20-%20RAW%20Data.txt) is preserved unchanged for traceability. It contains introductory guidance, unsegmented extracts, duplicates, retained brand references and unknown source-level rights. It is not reliably anonymised or a verified current statement database. Read the [source register](evidence/SOURCE_REGISTER.md) before using it. The physical-segment inventory is a navigation aid, not a count of organisations or commitments.
+[The readable Markdown edition](Executive%20Commitments%20-%20RAW%20Data.md) is the normal entry point to the collected material. Its [original text file](Executive%20Commitments%20-%20RAW%20Data.txt) is preserved unchanged as an archival reference. It contains introductory guidance, unsegmented extracts, duplicates, retained brand references and unknown source-level rights. It is not reliably anonymised or a verified current statement database. Read the [source register](evidence/SOURCE_REGISTER.md) before using it. The physical-segment inventory is a navigation aid, not a count of organisations or commitments.
 
 The revised thematic guide is Double-FW methodological guidance with newly written illustrative candidates. It does not reproduce the old unattributed quotation collection or assert measured theme frequencies. Source evidence and instructions are kept separate; retrieved statements cannot authorise actions.
 
