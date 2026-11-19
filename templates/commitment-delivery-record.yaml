@@ -1,6 +1,8 @@
 # One record per proposed or approved commitment.
-# Empty values mean not supplied; do not invent targets, owners, or dates.
-schema_version: "1.0.0"
+# MIT; Double FW Ltd. Template only, not a schema-validated or adopted policy.
+# Empty/null values mean not supplied. Status fields explain decisions needed.
+# Do not invent targets, owners, dates, approvals or operational audit records.
+template_version: "1.1.0"
 commitment_id: ""
 status: candidate_not_approved
 organisation:
@@ -12,13 +14,16 @@ approval:
   approval_route: ""
   approval_status: decision_required
   approved_date: null
+  approval_evidence_ref: null
+  approved_version: null
+  approved_destination: null
 commitment:
   statement: ""
   priority_id: ""
   claim_ids: []
   source_record_ids: []
   intended_outcome: ""
-  commitment_class: action
+  commitment_class: not_assessed
 delivery:
   accountable_role: ""
   delivery_owner_role: ""
@@ -73,7 +78,8 @@ audit:
   created_at_utc: ""
   created_by_role: ""
   prompt_version: ""
-  policy_version: "0.1.0"
+  policy_version: null
   escalation_refs: []
   retention_schedule_ref: ""
   redaction_notes: ""
+

@@ -5,71 +5,466 @@
   "description": "One provenance-preserving source extract. Keep original wording separate from paraphrase, translation, and coding.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["schema_version", "record_id", "source_text_verbatim", "source", "coding"],
+  "required": [
+    "schema_version",
+    "record_id",
+    "source_text_verbatim",
+    "source",
+    "coding"
+  ],
   "properties": {
-    "schema_version": { "const": "1.0.0" },
-    "record_id": { "type": "string", "minLength": 1 },
-    "source_text_verbatim": { "type": "string", "minLength": 1, "description": "Exact original source wording. Do not normalize this field." },
-    "researcher_paraphrase": { "type": ["string", "null"] },
+    "schema_version": {
+      "const": "1.1.0"
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_text_verbatim": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Exact original source wording. Do not normalize this field."
+    },
+    "researcher_paraphrase": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
     "translation": {
-      "type": ["object", "null"],
+      "type": [
+        "object",
+        "null"
+      ],
       "additionalProperties": false,
-      "required": ["text", "language", "method"],
+      "required": [
+        "text",
+        "language",
+        "method"
+      ],
       "properties": {
-        "text": { "type": "string" },
-        "language": { "type": "string" },
-        "method": { "enum": ["human", "machine", "mixed", "unknown"] }
+        "text": {
+          "type": "string"
+        },
+        "language": {
+          "type": "string"
+        },
+        "method": {
+          "enum": [
+            "human",
+            "machine",
+            "mixed",
+            "unknown"
+          ]
+        }
       }
     },
     "source": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["source_file", "source_title", "source_url", "publication_date", "accessed_date", "locator", "organization_ref", "reuse_status"],
+      "required": [
+        "source_file",
+        "source_title",
+        "source_url",
+        "publication_date",
+        "accessed_date",
+        "locator",
+        "organization_ref",
+        "reuse_status",
+        "issuer",
+        "jurisdiction",
+        "version",
+        "source_kind",
+        "reuse_basis_ref",
+        "provenance_status"
+      ],
       "properties": {
-        "source_file": { "type": ["string", "null"] },
-        "source_title": { "type": ["string", "null"] },
-        "source_url": { "type": ["string", "null"], "format": "uri" },
-        "publication_date": { "type": ["string", "null"], "format": "date" },
-        "accessed_date": { "type": ["string", "null"], "format": "date" },
+        "source_file": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_title": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_url": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        },
+        "publication_date": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "accessed_date": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
         "locator": {
-          "type": ["object", "null"],
+          "type": [
+            "object",
+            "null"
+          ],
           "additionalProperties": false,
           "properties": {
-            "page": { "type": ["integer", "null"], "minimum": 1 },
-            "section": { "type": ["string", "null"] },
-            "line_start": { "type": ["integer", "null"], "minimum": 1 },
-            "line_end": { "type": ["integer", "null"], "minimum": 1 },
-            "anchor": { "type": ["string", "null"] }
-          }
+            "page": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 1
+            },
+            "section": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "line_start": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 1
+            },
+            "line_end": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 1
+            },
+            "anchor": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "required": [
+                  "line_end"
+                ],
+                "properties": {
+                  "line_end": {
+                    "type": "integer"
+                  }
+                }
+              },
+              "then": {
+                "required": [
+                  "line_start"
+                ],
+                "properties": {
+                  "line_start": {
+                    "type": "integer",
+                    "minimum": 1
+                  }
+                }
+              }
+            }
+          ]
         },
         "organization_ref": {
-          "type": ["object", "null"],
+          "type": [
+            "object",
+            "null"
+          ],
           "additionalProperties": false,
-          "required": ["status", "value"],
+          "required": [
+            "status",
+            "value"
+          ],
           "properties": {
-            "status": { "enum": ["known", "anonymised", "not_recorded", "not_applicable"] },
-            "value": { "type": ["string", "null"] }
-          }
+            "status": {
+              "enum": [
+                "known",
+                "anonymised",
+                "not_recorded",
+                "not_applicable"
+              ]
+            },
+            "value": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "required": [
+                  "status"
+                ],
+                "properties": {
+                  "status": {
+                    "const": "known"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "value": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                }
+              }
+            }
+          ]
         },
         "reuse_status": {
-          "enum": ["not_assessed", "permitted", "restricted", "permission_required", "public_link_only", "not_for_redistribution"]
+          "enum": [
+            "not_assessed",
+            "permitted",
+            "restricted",
+            "permission_required",
+            "public_link_only",
+            "not_for_redistribution"
+          ]
+        },
+        "issuer": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "jurisdiction": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "version": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "source_kind": {
+          "enum": [
+            "organisational_statement",
+            "author_guidance",
+            "primary_legal",
+            "technical_standard",
+            "practitioner_guidance",
+            "other",
+            "unknown"
+          ]
+        },
+        "reuse_basis_ref": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "provenance_status": {
+          "enum": [
+            "unverified",
+            "partly_verified",
+            "verified"
+          ]
         }
-      }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "reuse_status": {
+                "const": "permitted"
+              }
+            },
+            "required": [
+              "reuse_status"
+            ]
+          },
+          "then": {
+            "properties": {
+              "reuse_basis_ref": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "provenance_status": {
+                "const": "verified"
+              }
+            },
+            "required": [
+              "provenance_status"
+            ]
+          },
+          "then": {
+            "properties": {
+              "source_title": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_url": {
+                "type": "string",
+                "format": "uri",
+                "minLength": 1
+              },
+              "accessed_date": {
+                "type": "string",
+                "format": "date"
+              },
+              "locator": {
+                "type": "object",
+                "anyOf": [
+                  {
+                    "required": [
+                      "page"
+                    ],
+                    "properties": {
+                      "page": {
+                        "type": "integer",
+                        "minimum": 1
+                      }
+                    }
+                  },
+                  {
+                    "required": [
+                      "section"
+                    ],
+                    "properties": {
+                      "section": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    }
+                  },
+                  {
+                    "required": [
+                      "line_start"
+                    ],
+                    "properties": {
+                      "line_start": {
+                        "type": "integer",
+                        "minimum": 1
+                      }
+                    }
+                  },
+                  {
+                    "required": [
+                      "anchor"
+                    ],
+                    "properties": {
+                      "anchor": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
     },
     "coding": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["status", "theme_ids", "commitment_class", "employment_relevance", "notes", "coder", "coded_date", "confidence"],
+      "required": [
+        "status",
+        "theme_ids",
+        "commitment_class",
+        "employment_relevance",
+        "notes",
+        "coder",
+        "coded_date",
+        "confidence"
+      ],
       "properties": {
-        "status": { "enum": ["uncoded", "in_progress", "reviewed", "adjudicated"] },
-        "theme_ids": { "type": "array", "uniqueItems": true, "items": { "type": "string" } },
-        "commitment_class": { "enum": ["aspiration", "action", "output", "outcome", "governance", "mixed", "unclear", "not_assessed"] },
-        "employment_relevance": { "enum": ["direct", "indirect", "none_identified", "unclear", "not_assessed"] },
-        "notes": { "type": ["string", "null"] },
-        "coder": { "type": ["string", "null"] },
-        "coded_date": { "type": ["string", "null"], "format": "date" },
-        "confidence": { "enum": ["high", "moderate", "low", "not_assessed"] }
+        "status": {
+          "enum": [
+            "uncoded",
+            "in_progress",
+            "reviewed",
+            "adjudicated"
+          ]
+        },
+        "theme_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "commitment_class": {
+          "enum": [
+            "aspiration",
+            "action",
+            "output",
+            "outcome",
+            "governance",
+            "mixed",
+            "unclear",
+            "not_assessed"
+          ]
+        },
+        "employment_relevance": {
+          "enum": [
+            "direct",
+            "indirect",
+            "none_identified",
+            "unclear",
+            "not_assessed"
+          ]
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "coder": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "coded_date": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "confidence": {
+          "enum": [
+            "high",
+            "moderate",
+            "low",
+            "not_assessed"
+          ]
+        }
       }
     }
-  }
+  },
+  "$comment": "MIT; Double FW Ltd. Structural validation is not evidence, rights clearance or approval."
 }

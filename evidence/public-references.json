@@ -1,0 +1,92 @@
+[
+  {
+    "id": "R01",
+    "repository": "Double-FW/Inclusion-and-Accessibility-Policy",
+    "path": "Potential_Obligations_and_Applicability_Guide.md",
+    "commit": "348007659c1e7897a74cc6ad6ab08e4d7ced650f",
+    "blob_sha": "ced0c5f6ca5a2007e620b9abe0a421d8d7668f4e",
+    "checked_on": "2026-11-19",
+    "url": "https://github.com/Double-FW/Inclusion-and-Accessibility-Policy/blob/348007659c1e7897a74cc6ad6ab08e4d7ced650f/Potential_Obligations_and_Applicability_Guide.md",
+    "authority": "secondary_practitioner_guidance"
+  },
+  {
+    "id": "R02",
+    "repository": "Double-FW/Accessibility_Programme_Runbooks",
+    "path": "README.md",
+    "commit": "a8ec268b29e6f8612c958b183b9d33ab0747efa7",
+    "blob_sha": "dbc0ee92169d0a569be36231152e6affa7827376",
+    "checked_on": "2026-11-19",
+    "url": "https://github.com/Double-FW/Accessibility_Programme_Runbooks/blob/a8ec268b29e6f8612c958b183b9d33ab0747efa7/README.md",
+    "authority": "secondary_practitioner_guidance"
+  },
+  {
+    "id": "R03",
+    "repository": "Double-FW/Inclusion-for-Managers-and-HR-Systems",
+    "path": "README.md",
+    "commit": "1f573bf3f58972e73926005ca87b7d4aac3301d6",
+    "blob_sha": "455010f2e01d1f92addc698257875d76e27f1472",
+    "checked_on": "2026-11-19",
+    "url": "https://github.com/Double-FW/Inclusion-for-Managers-and-HR-Systems/blob/1f573bf3f58972e73926005ca87b7d4aac3301d6/README.md",
+    "authority": "secondary_practitioner_guidance"
+  },
+  {
+    "id": "R04",
+    "repository": "Double-FW/Data_Ethics_and_Disability",
+    "path": "Nothing_About_Us_Without_Us.md",
+    "commit": "77163fa48b6df5839e1294ec02797abf67c73980",
+    "blob_sha": "8ed4f412c00699f2f85522c3434181bbab56fa0c",
+    "checked_on": "2026-11-19",
+    "url": "https://github.com/Double-FW/Data_Ethics_and_Disability/blob/77163fa48b6df5839e1294ec02797abf67c73980/Nothing_About_Us_Without_Us.md",
+    "authority": "secondary_practitioner_guidance"
+  },
+  {
+    "id": "R05",
+    "repository": "Double-FW/POUR-for-Branding-Systems-and-CX",
+    "path": "README.md",
+    "commit": "0410091af93053783ff8594f4404be1bf721f407",
+    "blob_sha": "97b097f8f0cb2189672a95ce374c1d7abb061499",
+    "checked_on": "2026-11-19",
+    "url": "https://github.com/Double-FW/POUR-for-Branding-Systems-and-CX/blob/0410091af93053783ff8594f4404be1bf721f407/README.md",
+    "authority": "secondary_practitioner_guidance"
+  },
+  {
+    "id": "R06",
+    "repository": "Double-FW/AI-Accessibility-Maturity-Model",
+    "path": "README.md",
+    "commit": "c2da391d266f2c4bb73160a90f9d2703c1d8f683",
+    "blob_sha": "ed47a136ca3ef783fd36b8383e8dacd82a5eab24",
+    "checked_on": "2026-11-19",
+    "url": "https://github.com/Double-FW/AI-Accessibility-Maturity-Model/blob/c2da391d266f2c4bb73160a90f9d2703c1d8f683/README.md",
+    "authority": "secondary_practitioner_guidance"
+  },
+  {
+    "id": "R07",
+    "repository": "Double-FW/Mapping-Accessibility-Maturity-to-an-ESG-Model-",
+    "path": "README.md",
+    "commit": "71f8244e2a1661a5973b9e4db44c54378e41a3bc",
+    "blob_sha": "d17e5f0175b91ecd16a7fe0f2804972a14f06d58",
+    "checked_on": "2026-11-19",
+    "url": "https://github.com/Double-FW/Mapping-Accessibility-Maturity-to-an-ESG-Model-/blob/71f8244e2a1661a5973b9e4db44c54378e41a3bc/README.md",
+    "authority": "secondary_practitioner_guidance"
+  },
+  {
+    "id": "R08",
+    "repository": "Double-FW/QA_Accessibility_Testing",
+    "path": "Reporting/Sources_and_Legal_Boundaries.md",
+    "commit": "7750ea6bfdb865ce97a62e337b1c75673b1eef2d",
+    "blob_sha": "b1421b1caedd285bef2f3c3062b3df43e5fbf78c",
+    "checked_on": "2026-11-19",
+    "url": "https://github.com/Double-FW/QA_Accessibility_Testing/blob/7750ea6bfdb865ce97a62e337b1c75673b1eef2d/Reporting/Sources_and_Legal_Boundaries.md",
+    "authority": "secondary_practitioner_guidance"
+  },
+  {
+    "id": "R09",
+    "repository": "Double-FW/Global_Accessiblity_Regulatory_Requirements",
+    "path": "Global_Website_Accessibility_Regulatory_Overviews.md",
+    "commit": "4133575aab20727b36e9502f6d723317132f8dd6",
+    "blob_sha": "64fb97bc6c34515a29b0d5b73778b0095ea3d028",
+    "checked_on": "2026-11-19",
+    "url": "https://github.com/Double-FW/Global_Accessiblity_Regulatory_Requirements/blob/4133575aab20727b36e9502f6d723317132f8dd6/Global_Website_Accessibility_Regulatory_Overviews.md",
+    "authority": "secondary_practitioner_guidance"
+  }
+]
