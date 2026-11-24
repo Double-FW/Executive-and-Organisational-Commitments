@@ -47,3 +47,11 @@ The repository licence does not establish ownership of third-party statements in
 [Validation notes](VALIDATION.md) state checks actually performed and remaining limitations. [CHANGELOG.md](CHANGELOG.md) records corrections. Keep dates, evidence references, open decisions and version changes with retrieved sections. Do not store actual sensitive workforce evidence or credentials in this public repository.
 
 The proposed destination is [GarethFW/Executive_and_Organisational_Commitments](https://huggingface.co/datasets/GarethFW/Executive_and_Organisational_Commitments). [Sync setup](huggingface/SETUP.md) and the weekly/manual workflow are installed. First publication remains unverified until HF_TOKEN is saved, an actual run succeeds and destination provenance is checked. Updates are scheduled for Mondays at 08:57 UTC.
+
+## About the author
+
+Gareth Ford Williams is a senior leader in accessibility and inclusive design and co-founder of Double FW Ltd. His work spans accessibility, UX, technical standards, assistive technology and inclusive media. At the BBC, he led accessibility and UX work and chaired standards governance, translating research and policy into practical guidance.
+
+## About Double FW Ltd
+
+Double FW Ltd is a UK accessibility and inclusive design consultancy. It helps organisations build accessibility into strategy, governance, brands, products, content and services. Its public repositories provide practical guidance for people and AI-assisted workflows.
